@@ -28,3 +28,9 @@ npm run demo:academic
 
 # Jalankan test
 npm test
+
+# Digital Identity Foundation  
+
+![CI](https://github.com/arjunajuna2009weva-sys/digital-identity-foundation/actions/workflows/ci.yml/badge.svg)
+
+Eksperimen fondasi ekosistem identitas digital terdistribusi (DID + VC)
