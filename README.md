@@ -28,3 +28,6 @@ npm run demo:academic
 
 # Jalankan test
 npm test
+
+![CI](https://github.com/arjunajuna2009weva-sys/digital-identity-foundation/actions/workflows/ci.yml/badge.svg)
+
