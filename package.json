@@ -1,0 +1,32 @@
+{
+  "name": "digital-identity-ecosystem",
+  "version": "1.0.0",
+  "description": "Fondasi ekosistem identitas digital mandiri (DID + VC) untuk kedaulatan data.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node examples/simple-demo.js",
+    "demo:academic": "node examples/academic-demo.js",
+    "test": "node --test tests",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "digital-identity",
+    "DID",
+    "Verifiable-Credentials",
+    "SSI",
+    "ZKP",
+    "Indonesia"
+  ],
+  "author": "arjunajuna",
+  "license": "MIT",
+  "dependencies": {
+    "tweetnacl": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
