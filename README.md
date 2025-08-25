@@ -1,13 +1,37 @@
-# 🌐 Digital Identity Ecosystem (WEVA) — Fondasi
+# WEVA – Digital Identity Foundation
 
-Repo ini adalah **fondasi kokoh** ekosistem identitas digital mandiri: user-owned, aman, portabel, dan interoperable. Fokus MVP: **DID + Verifiable Credential** untuk kasus **akademik** (ijazah/sertifikat) — pondasi ini akan menjadi rujukan repo lanjutan (wallet, medis, komunikasi, AI agent).
+## 🌍 Visi
+WEVA hadir untuk membangun fondasi identitas digital yang **aman, terintegrasi, dan dapat diverifikasi**.  
+Tujuan utama adalah memberikan kendali penuh atas data pribadi kepada pengguna, sekaligus membuka akses ke layanan sosial, finansial, dan digital secara lebih efisien.
 
-> ⚠️ **PoC Warning:** Implementasi kripto & VC di sini **sederhana** untuk edukasi. **Jangan** gunakan langsung untuk produksi. Tahap lanjut akan menambah selective disclosure, ZKP, revocation registry, key management yang aman, dsb.
+## 🎯 Misi
+- Memberdayakan individu agar memiliki **kendali penuh** atas identitas mereka.
+- Menghubungkan ekosistem Web2, Web3, dan layanan pemerintahan tanpa mengorbankan privasi.
+- Menjadi fondasi identitas digital bagi masyarakat Indonesia dan global.
 
-## 🎯 Tujuan
-- **User-Owned Identity** — kunci & identitas dipegang pengguna.
-- **Pondasi Ekosistem** — siap dikembangkan ke pendidikan, kesehatan, ekonomi, sosial, game, AI agent.
-- **Interoperable** — mengikuti standar global (W3C DID/VC) secara bertahap.
+## 🚀 Fitur Utama
+- **Self-Sovereign Identity (SSI):** identitas sepenuhnya dimiliki pengguna, bukan server.
+- **Data terenkripsi & off-chain:** informasi sensitif hanya disimpan di perangkat pengguna.
+- **Selective Disclosure:** pengguna dapat berbagi data seperlunya (contoh: bukti valid tanpa membuka detail penuh).
+- **Integrasi Modular:** mendukung berbagai sektor (fintech, healthcare, e-government, dll).
+- **Keamanan Tingkat Tinggi:** hash + tanda tangan kriptografi tersimpan di blockchain.
+
+## 📌 Manfaat
+- **Pengguna:** tidak perlu isi ulang KYC berkali-kali, data aman, privasi terjaga.
+- **Institusi/Perusahaan:** verifikasi cepat, tanpa simpan data sensitif.
+- **Ekosistem:** jembatan antara identitas dunia nyata & layanan digital.
+
+## 📅 Roadmap Singkat
+Lihat [ROADMAP.md](./ROADMAP.md) untuk detail lebih lengkap.
+
+- **Q4 2025:** MVP + integrasi awal (NPWP, rekening bank).
+- **Q1 2026:** Dukungan KTP & BPJS.
+- **Q2 2026:** Peluncuran token & airdrop tahap 1.
+- **Q3 2026:** Integrasi dengan bank & exchange.
+- **Q4 2026:** Ekspansi global + interoperabilitas lintas chain.
+
+---
+
 
 ## 🚀 Fitur MVP
 - Generate keypair (Ed25519)
