@@ -21,14 +21,8 @@ Tujuan utama adalah memberikan kendali penuh atas data pribadi kepada pengguna, 
 - **Institusi/Perusahaan:** verifikasi cepat, tanpa simpan data sensitif.
 - **Ekosistem:** jembatan antara identitas dunia nyata & layanan digital.
 
-## 📅 Roadmap Singkat
+## 📅 Roadmap nya bisa di cek di sini
 Lihat [ROADMAP.md](./ROADMAP.md) untuk detail lebih lengkap.
-
-- **Q4 2025:** MVP + integrasi awal (NPWP, rekening bank).
-- **Q1 2026:** Dukungan KTP & BPJS.
-- **Q2 2026:** Peluncuran token & airdrop tahap 1.
-- **Q3 2026:** Integrasi dengan bank & exchange.
-- **Q4 2026:** Ekspansi global + interoperabilitas lintas chain.
 
 ---
 
@@ -38,30 +32,4 @@ Lihat [ROADMAP.md](./ROADMAP.md) untuk detail lebih lengkap.
 - Bentuk DID: `did:weva:<base64url(publicKey)>`
 - Issue & Verify Verifiable Credential sederhana (JSON + signature)
 
-## ⚡ Quickstart
-```bash
-git clone <url-repo-anda>
-cd digital-identity-ecosystem
-npm install
 
-# Demo singkat
-npm start
-
-# Demo akademik (issuer universitas -> verifikasi HRD)
-npm run demo:academic
-
-# Jalankan test
-npm test
-
-# Digital Identity Foundation  
-
-![CI](https://github.com/arjunajuna2009weva-sys/digital-identity-foundation/actions/workflows/ci.yml/badge.svg)
-
-Eksperimen fondasi ekosistem identitas digital terdistribusi (DID + VC)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.  
-See [LICENSE](./LICENSE) for details.
